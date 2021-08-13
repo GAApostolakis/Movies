@@ -118,6 +118,7 @@
 		C81B5F4E26A2470F002C490E /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				C81E0E0726C6ABC900330A3B /* Extensions */,
 				C81B5F9D26A24FFD002C490E /* Screns */,
 				C81B5F9626A24E9A002C490E /* Network */,
 				C81B5F8226A24B68002C490E /* Coordinator */,
@@ -179,6 +180,13 @@
 				C81B5FA226A29904002C490E /* GridViewController.swift */,
 			);
 			path = GridViewController;
+			sourceTree = "<group>";
+		};
+		C81E0E0726C6ABC900330A3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F45D0C1B167A0ED7C22FB7C1 /* Pods */ = {

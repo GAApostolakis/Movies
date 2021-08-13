@@ -9,16 +9,16 @@ import UIKit
 
 class AppCoordinator: Coordinator {
     
-    var window: UIWindow
+    var window: UIWindow?
     
-    init(window: UIWindow) {
+    init(window: UIWindow?) {
         self.window = window
     }
     
     func start() {
         let gridVC = GridViewController()
-        window.rootViewController = gridVC
-        window.makeKeyAndVisible()
+        window?.rootViewController = gridVC
+        window?.makeKeyAndVisible()
     }
 }
 
