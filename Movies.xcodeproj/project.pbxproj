@@ -11,13 +11,16 @@
 		C81B5F5026A2470F002C490E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F4F26A2470F002C490E /* AppDelegate.swift */; };
 		C81B5F5226A2470F002C490E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F5126A2470F002C490E /* SceneDelegate.swift */; };
 		C81B5F5926A24712002C490E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81B5F5826A24712002C490E /* Assets.xcassets */; };
-		C81B5F5C26A24712002C490E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81B5F5A26A24712002C490E /* LaunchScreen.storyboard */; };
 		C81B5F6726A24713002C490E /* MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F6626A24713002C490E /* MoviesTests.swift */; };
 		C81B5F7226A24713002C490E /* MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F7126A24713002C490E /* MoviesUITests.swift */; };
 		C81B5F8426A24B77002C490E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F8326A24B77002C490E /* Coordinator.swift */; };
 		C81B5F9826A24EAC002C490E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5F9726A24EAC002C490E /* Repository.swift */; };
-		C81B5FA326A29904002C490E /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5FA226A29904002C490E /* GridViewController.swift */; };
+		C81B5FA326A29904002C490E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5FA226A29904002C490E /* LoginViewController.swift */; };
 		C81B5FB226A29E1D002C490E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B5FB126A29E1D002C490E /* AppCoordinator.swift */; };
+		C874736526CC91AA00B41AF1 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C874736426CC91AA00B41AF1 /* LaunchScreen.swift */; };
+		C874736826CCA58000B41AF1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C874736726CCA58000B41AF1 /* LoginViewModel.swift */; };
+		C874736B26CD506E00B41AF1 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C874736A26CD506E00B41AF1 /* GridViewController.swift */; };
+		C8CB7A7426CC8EDF00AEEE02 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CB7A7326CC8EDF00AEEE02 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,6 @@
 		C81B5F4F26A2470F002C490E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81B5F5126A2470F002C490E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C81B5F5826A24712002C490E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C81B5F5B26A24712002C490E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81B5F5D26A24712002C490E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81B5F6226A24713002C490E /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81B5F6626A24713002C490E /* MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTests.swift; sourceTree = "<group>"; };
@@ -55,8 +57,12 @@
 		C81B5F7326A24713002C490E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81B5F8326A24B77002C490E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C81B5F9726A24EAC002C490E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		C81B5FA226A29904002C490E /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		C81B5FA226A29904002C490E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C81B5FB126A29E1D002C490E /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C874736426CC91AA00B41AF1 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		C874736726CCA58000B41AF1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C874736A26CD506E00B41AF1 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		C8CB7A7326CC8EDF00AEEE02 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +130,8 @@
 				C81B5F8226A24B68002C490E /* Coordinator */,
 				C81B5F4F26A2470F002C490E /* AppDelegate.swift */,
 				C81B5F5126A2470F002C490E /* SceneDelegate.swift */,
+				C874736426CC91AA00B41AF1 /* LaunchScreen.swift */,
 				C81B5F5826A24712002C490E /* Assets.xcassets */,
-				C81B5F5A26A24712002C490E /* LaunchScreen.storyboard */,
 				C81B5F5D26A24712002C490E /* Info.plist */,
 			);
 			path = Movies;
@@ -169,24 +175,35 @@
 		C81B5F9D26A24FFD002C490E /* Screns */ = {
 			isa = PBXGroup;
 			children = (
-				C81B5F9E26A2501A002C490E /* GridViewController */,
+				C874736926CD506400B41AF1 /* Grid */,
+				C874736626CCA54B00B41AF1 /* Login */,
 			);
 			path = Screns;
-			sourceTree = "<group>";
-		};
-		C81B5F9E26A2501A002C490E /* GridViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C81B5FA226A29904002C490E /* GridViewController.swift */,
-			);
-			path = GridViewController;
 			sourceTree = "<group>";
 		};
 		C81E0E0726C6ABC900330A3B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C8CB7A7326CC8EDF00AEEE02 /* UIColor.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C874736626CCA54B00B41AF1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C81B5FA226A29904002C490E /* LoginViewController.swift */,
+				C874736726CCA58000B41AF1 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C874736926CD506400B41AF1 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				C874736A26CD506E00B41AF1 /* GridViewController.swift */,
+			);
+			path = Grid;
 			sourceTree = "<group>";
 		};
 		F45D0C1B167A0ED7C22FB7C1 /* Pods */ = {
@@ -303,7 +320,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81B5F5C26A24712002C490E /* LaunchScreen.storyboard in Resources */,
 				C81B5F5926A24712002C490E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,12 +387,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C874736526CC91AA00B41AF1 /* LaunchScreen.swift in Sources */,
 				C81B5F8426A24B77002C490E /* Coordinator.swift in Sources */,
-				C81B5FA326A29904002C490E /* GridViewController.swift in Sources */,
+				C8CB7A7426CC8EDF00AEEE02 /* UIColor.swift in Sources */,
+				C874736B26CD506E00B41AF1 /* GridViewController.swift in Sources */,
+				C81B5FA326A29904002C490E /* LoginViewController.swift in Sources */,
 				C81B5F5026A2470F002C490E /* AppDelegate.swift in Sources */,
 				C81B5FB226A29E1D002C490E /* AppCoordinator.swift in Sources */,
 				C81B5F5226A2470F002C490E /* SceneDelegate.swift in Sources */,
 				C81B5F9826A24EAC002C490E /* Repository.swift in Sources */,
+				C874736826CCA58000B41AF1 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,17 +430,6 @@
 			targetProxy = C81B5F6E26A24713002C490E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C81B5F5A26A24712002C490E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C81B5F5B26A24712002C490E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C81B5F7426A24713002C490E /* Debug */ = {

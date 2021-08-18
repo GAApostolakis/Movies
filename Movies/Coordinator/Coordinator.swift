@@ -7,4 +7,6 @@
 import UIKit
 protocol Coordinator {
     func start()
+    func startNav()
+    func loginInfo(user:String, password:String)
 }
