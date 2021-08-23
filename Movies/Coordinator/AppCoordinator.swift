@@ -32,16 +32,17 @@ class AppCoordinator: Coordinator {
     }
     
     func startNav() {
+        
         let gridVC = GridViewController()
-        gridVC.modalTransitionStyle = .coverVertical
-        gridVC.modalPresentationStyle = . fullScreen
-        currentVC?.present(gridVC, animated: true, completion: nil)
+        gridVC.title = "Home Page"
+        let nav1 = UINavigationController(rootViewController: gridVC)
+        nav1.modalPresentationStyle = .fullScreen
+        nav1.modalTransitionStyle = .flipHorizontal
+        currentVC?.present(nav1, animated: true, completion: nil)
     }
     
     func loginInfo(user: String, password: String) {
         self.user = user
     }
-    
-    
 }
 

@@ -82,7 +82,6 @@ final class LoginViewController: UIViewController {
     
     //MARK: - Methods
     @objc func login() {
-        print("loginPushed")
         viewModel.login(user: loginTextField.text ?? "", password: passwordTextField.text ?? "")
     }
 }
